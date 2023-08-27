@@ -11,3 +11,6 @@ PRINT_START EXTRUDER_TEMP={first_layer_temperature[initial_extruder]} BED_TEMP=[
 
 Gcode sample for Cura slicer:
 PRINT_START BED_TEMP={material_bed_temperature_layer_0} EXTRUDER_TEMP={material_print_temperature_layer_0} EXTRUDE_RATE={material_flow_layer_0} CHAMBER={build_volume_temperature} 
+
+Gcode sample for OrcaSlicer:
+PRINT_START EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] CHAMBER=[chamber_temperature] EXTRUDE_RATE=[filament_flow_ratio]  SKIRT=[skirt_loops]
